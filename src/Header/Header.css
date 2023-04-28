@@ -1,0 +1,75 @@
+.header__container {
+    width: 100%;
+    background: #EFEEEE;
+    display: flex;
+    justify-content: center;
+    min-height: 170px;
+}
+
+.header__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1428px;
+}
+
+.header__logo {
+    background-image: url("../Images/Coccinelle.png");
+    z-index: 3;
+    width: 135px;
+    height: 14px;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.header__list-item a {
+    margin-right: 56px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 1;
+    transition: opacity .2s ease .1s;
+}
+
+.header__list-item a:hover {
+    opacity: .7;
+}
+
+.header__sale {
+    display: flex;
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__sale-link {;
+    color: #CC1E21;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155.5%;
+    text-decoration: none;
+    transition: opacity .2s ease .1s;
+    opacity: 1;
+}
+
+.header__sale-link:hover {
+    opacity: .7;
+}
