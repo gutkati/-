@@ -75,7 +75,6 @@
 
 .main__button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
-    opacity: .9;
 }
 
 .main__circle {
