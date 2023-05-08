@@ -140,6 +140,36 @@
     .main-text {
         margin-top: 54px;
     }
-
-
 }
+
+@media screen and (max-width: 1439px) {
+    .main__container {
+        height: 763px;
+    }
+
+    .main__container-img {
+        width: 433px;
+        height: 100%;
+    }
+
+    .main__img {
+        display: block;
+        background-image: url("../Images/bag.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main__circle {
+        left: -80px;
+        bottom: -30px;
+
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .main__container {
+        margin-left: 80px;
+    }
+    }

@@ -82,3 +82,31 @@
         margin: 0 100px;
     }
 }
+
+@media screen and (max-width: 1439px) {
+    .header__logo {
+        width: 120px;
+        height: 12px;
+        background-size: 100%;
+    }
+
+    .header__list-item a {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .header__sale {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header__sale-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .header__section {
+        margin: 0 80px;
+    }
+}
