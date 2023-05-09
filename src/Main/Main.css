@@ -30,6 +30,7 @@
 
 .main__container-text {
     width: 672px;
+    /*position: relative;*/
 }
 
 .main__container-title {
@@ -143,8 +144,14 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .main__container {
+
+    .main {
         height: 763px;
+    }
+
+    .main__container {
+        /*height: 763px;*/
+        height: 100%;
     }
 
     .main__container-img {
@@ -162,9 +169,15 @@
     }
 
     .main__circle {
+        position: absolute;
         left: -80px;
         bottom: -30px;
 
+    }
+
+    .main__button {
+        padding: 19px 44px;
+        font-size: 14px;
     }
 }
 
@@ -172,4 +185,4 @@
     .main__container {
         margin-left: 80px;
     }
-    }
+}

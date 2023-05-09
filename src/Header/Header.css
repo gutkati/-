@@ -3,7 +3,7 @@
     background: #EFEEEE;
     display: flex;
     justify-content: center;
-    min-height: 170px;
+    height: 170px;
 }
 
 .header__section {
@@ -84,9 +84,14 @@
 }
 
 @media screen and (max-width: 1439px) {
+
+    .header__container {
+        height: 124px;
+    }
+
     .header__logo {
         width: 120px;
-        height: 12px;
+        height: 13px;
         background-size: 100%;
     }
 
