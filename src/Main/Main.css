@@ -86,7 +86,7 @@
 
 .main__circle {
     width: 385px;
-    height: 376px;
+    height: 385px;
     border-radius: 50%;
     background: #EFEEEE;
     position: absolute;
@@ -119,7 +119,7 @@
     }
 
     .main__container-title {
-        margin: 74px 0 226px;
+        margin: 74px 0 251px;
     }
 
 
@@ -147,7 +147,7 @@
 @media screen and (max-width: 1439px) {
 
     .main {
-        height: 763px;
+        height: 809px;
     }
 
     .main__container {
@@ -169,10 +169,16 @@
         height: 100%;
     }
 
+    .main__container-title {
+    margin: 100px 0 248px;
+}
+
     .main__circle {
         position: absolute;
         left: -80px;
-        bottom: -30px;
+        bottom: 10px;
+        width: 323px;
+        height: 323px;
 
     }
 

@@ -17,6 +17,7 @@
 
 .header__logo {
     background-image: url("../Images/Coccinelle.png");
+    background-repeat: no-repeat;
     z-index: 3;
     width: 135px;
     height: 14px;
