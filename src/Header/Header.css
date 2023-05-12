@@ -151,3 +151,23 @@
         opacity: .7;
     }
 }
+
+@media screen and (max-width: 650px){
+    .header__section {
+        margin: 0 20px;
+    }
+
+    .header__sale {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header__sale-link {
+        font-size: 14px;
+    }
+
+    .header__burger_visible {
+        margin-left: 25px;
+    }
+
+}
