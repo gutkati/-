@@ -1,9 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css'
+import BurgerMenu from "../BurgerMenu/BurgreMenu";
 
 const Header = () => {
+    const [isOpenBurgerMenu, setIsOpenBurgerMenu] = useState(false)
+
+    const openBurgerMenu = () => {
+        setIsOpenBurgerMenu(true)
+    }
+
+    const closeBurgerMenu = () => {
+        setIsOpenBurgerMenu(false)
+    }
+
+    const stopPropagation = (e) => {
+    e.stopPropagation()
+  }
+
     return (
-        <div className='header__container'>
+        <header className='header__container'>
             <div className='header__section'>
                 <div className='header__logo'>
                 </div>
@@ -17,9 +32,16 @@ const Header = () => {
                     <div className="header__sale">
                         <a href="#" className='header__sale-link'>SALE</a>
                     </div>
+                    <button className='header__burger header__burger_visible'
+                            onClick={openBurgerMenu}
+                    />
                 </div>
             </div>
-        </div>
+            <BurgerMenu isOpenBurgerMenu={isOpenBurgerMenu}
+                        closeBurgerMenu={closeBurgerMenu}
+                        stopPropagation={stopPropagation}
+            />
+        </header>
     );
 };
 

@@ -78,6 +78,11 @@
     cursor: pointer;
 }
 
+.header__burger {
+    display: none;
+}
+
+
 @media screen and (max-width: 1670px) {
     .header__section {
         margin: 0 100px;
@@ -114,5 +119,35 @@
 @media screen and (max-width: 1180px) {
     .header__section {
         margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__list {
+        display: none;
+    }
+    .header__burger_visible {
+        display: block;
+        width: 44px;
+        height: 44px;
+        border: none;
+        background: transparent;
+        position: relative;
+        padding: 0;
+        margin-left: 40px;
+    }
+
+    .header__burger_visible::after {
+        display: block;
+        content: "\2261";
+        position: absolute;
+        top: -1px;
+        right: 7px;
+        font-size: 3em;
+    }
+
+    .header__burger_visible:hover {
+        cursor: pointer;
+        opacity: .7;
     }
 }

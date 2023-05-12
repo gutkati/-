@@ -1,0 +1,62 @@
+.burgerMenu {
+    display: none;
+}
+
+.burgerMenu__open {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1028px;
+    justify-content: flex-end;
+    z-index: 10;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.burgerMenu__close {
+    border: none;
+    background-color: transparent;
+    background-image: url("../Images/ic_round-close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    margin: 23px 31px 0 0;
+}
+
+.burgerMenu__close:hover {
+    opacity: .8;
+}
+
+.burgerMenu__container {
+    width: 325px;
+    background: #ffffff;
+    z-index: 20;
+    opacity: 1;
+}
+
+.burgerMenu__list {
+    margin: 100px 0 0 54px;
+    list-style: none;
+}
+
+.burgerMenu__item {
+    margin-bottom: 33px;
+}
+
+.burgerMenu__item a {
+    opacity: 1;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.burgerMenu__item a:hover {
+    border-bottom: solid 2px #000000;
+}
