@@ -1,0 +1,79 @@
+.footer {
+    width: 100%;
+    background-color: #FFF6F6;
+    height: 320px;
+    box-sizing: border-box;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1428px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 27px;
+    width: 100%;
+}
+
+.footer__input {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.footer__input:hover {
+    color: #CC1E21;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 63px;
+}
+
+.footer__item {
+    background-size: 25px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 45px;
+    opacity: 1;
+
+}
+
+.footer__item:hover {
+    opacity: .7;
+}
+
+.footer__item-telegram {
+    background-image: url("../Images/telegram.png");
+}
+
+.footer__item-viber {
+    background-image: url("../Images/viber.png");
+}
+
+.footer__item-whatsApp {
+    background-image: url("../Images/whatsApp.png");
+}
+
+.footer__button-up {
+    background-image: url("../Images/button-up.png");
+    width: 60px;
+    height: 60px;
+    transition: .2s ease .1s;
+}
+
+.footer__button-up:hover {
+    background-image: url("../Images/button-up-hover.png");
+}

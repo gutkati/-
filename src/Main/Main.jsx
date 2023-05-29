@@ -1,5 +1,7 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import './Main.css'
+import Footer from "../Footer/Footer";
 
 const Main = () => {
     return (
@@ -16,13 +18,14 @@ const Main = () => {
                             коже и вниманию к деталям.
                         </p>
                     </div>
-                        <button className='main__button'>ВСЕ ТОВАРЫ COCCINELLE</button>
+
+                    <button className='main__button'>ВСЕ ТОВАРЫ COCCINELLE</button>
+
                 </div>
                 <div className="main__container-img">
                     <div className='main__img'/>
                 </div>
             </div>
-
         </div>
     );
 };

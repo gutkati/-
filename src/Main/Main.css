@@ -63,12 +63,13 @@
 }
 
 .main__button {
-    padding: 25px 42px;
+    padding: 20px 36px;
     background: #CC1E21;
     border-radius: 50px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 155.5%;
+    letter-spacing: 0.05em;
     color: #ffffff;
     border: none;
     position: relative;
