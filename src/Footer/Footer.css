@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     background-color: #FFF6F6;
-    height: 320px;
+    height: 262px;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@
     align-items: flex-end;
     width: 1428px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 0 32px;
 }
 
 .footer__list {
@@ -38,7 +38,7 @@
 .footer__contacts {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 63px;
+    margin-bottom: 45px;
 }
 
 .footer__item {
@@ -69,8 +69,8 @@
 
 .footer__button-up {
     background-image: url("../Images/button-up.png");
-    width: 60px;
-    height: 60px;
+    width: 46px;
+    height: 46px;
     transition: .2s ease .1s;
 }
 
