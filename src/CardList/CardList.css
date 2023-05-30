@@ -1,0 +1,54 @@
+.cardList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1428px;
+}
+
+.cardList__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.11em;
+    color: #CC1E21;
+    text-align: center;
+    margin: 0 0 64px;
+}
+
+.cardList__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.cardList__section-button {
+    width: 142px;
+    margin: 75px 0 130px;
+}
+
+.cardList__button {
+    border: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    padding: 0;
+    cursor: pointer;
+}
+
+.cardList__button_border {
+    border-bottom: 1px solid #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cardList__button:hover {
+    color: #CC1E21;
+}
+
+.cardList__button_border:hover {
+    border-bottom: 1px solid #CC1E21;
+}
