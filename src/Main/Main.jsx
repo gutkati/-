@@ -19,7 +19,7 @@ const Main = () => {
                         </p>
                     </div>
 
-                    <button className='main__button'>ВСЕ ТОВАРЫ COCCINELLE</button>
+                    <Link to='/product'><button className='main__button'>ВСЕ ТОВАРЫ COCCINELLE</button></Link>
 
                 </div>
                 <div className="main__container-img">

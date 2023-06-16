@@ -1,27 +1,33 @@
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import './App.css';
-import Footer from "./Footer/Footer";
 import React, {useState} from "react";
-import CardList from "./CardList/CardList";
-import {cardsMap, cardsAccessories} from "./utils/constants.jsx"
+import Product from "./Product/Product";
+import {Route, Routes, useLocation} from 'react-router-dom'
 
 function App() {
-
+    const {pathname} = useLocation()
 
     return (
         <div>
-            <Header />
-            <Main />
-            <CardList title={"СУМКИ"}
-                      array={cardsMap}
+            {
+                pathname === '/' ||
+                pathname === '/product' ? (
+                    <Header/>
+                ) : ("")
+            }
 
-            />
+            <Routes>
+                <Route exact path="/"
+                       element={<Main/>}
+                />
 
-            <CardList title={"КОЖАНЫЕ АКСЕССУАРЫ"}
-                      array={cardsAccessories}
-            />
-            <Footer />
+                <Route
+                    path="/product"
+                    element={<Product/>}
+                />
+
+            </Routes>
         </div>
     );
 }

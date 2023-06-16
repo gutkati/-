@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from "react-router-dom";
 import './Header.css'
 import BurgerMenu from "../BurgerMenu/BurgreMenu";
 
@@ -20,8 +21,8 @@ const Header = () => {
     return (
         <header className='header__container'>
             <div className='header__section'>
-                <div className='header__logo'>
-                </div>
+                <Link to="/" className='header__logo' />
+
                 <div className="header__nav">
                     <ul className='header__list'>
                         <li className='header__list-item'><a href="#">МАГАЗИНЫ</a></li>
@@ -30,7 +31,7 @@ const Header = () => {
                         <li className='header__list-item'><a href="#">КОНТАКТЫ</a></li>
                     </ul>
                     <div className="header__sale">
-                        <a href="#" className='header__sale-link'>SALE</a>
+                        <Link to="/" className='header__sale-link'>SALE</Link>
                     </div>
                     <button className='header__burger header__burger_visible'
                             onClick={openBurgerMenu}
