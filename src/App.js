@@ -2,17 +2,25 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import './App.css';
 import Footer from "./Footer/Footer";
-import React from "react";
+import React, {useState} from "react";
 import CardList from "./CardList/CardList";
+import {cardsMap, cardsAccessories} from "./utils/constants.jsx"
 
 function App() {
+
+
     return (
         <div>
             <Header />
             <Main />
-            <CardList title={"СУМКИ"}/>
-            <CardList title={"КОЖАНЫЕ АКСЕССУАРЫ"}/>
-            <CardList title={"КОШЕЛЬКИ"}/>
+            <CardList title={"СУМКИ"}
+                      array={cardsMap}
+
+            />
+
+            <CardList title={"КОЖАНЫЕ АКСЕССУАРЫ"}
+                      array={cardsAccessories}
+            />
             <Footer />
         </div>
     );
