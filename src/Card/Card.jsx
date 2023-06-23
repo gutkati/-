@@ -5,7 +5,7 @@ const Card = ({card}) => {
     return (
         <li className="card">
             <div className="card__section-img">
-                <img className="card__img" src={card.img} alt={card.description}/>
+                <img className="card__img" src={card.url} alt={card.description}/>
             </div>
             <div className="card__section-info">
                 <h2 className="card__title">{card.collection}</h2>

@@ -12,6 +12,7 @@
     width: 1428px;
     margin: 0 auto;
     padding: 60px 0 32px;
+    position: relative;
 }
 
 .footer__list {
@@ -19,6 +20,7 @@
     justify-content: space-between;
     margin: 0 0 27px;
     width: 100%;
+    padding: 0;
 }
 
 .footer__input {
@@ -68,6 +70,9 @@
 }
 
 .footer__button-up {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     background-image: url("../Images/button-up.png");
     width: 46px;
     height: 46px;
@@ -76,4 +81,80 @@
 
 .footer__button-up:hover {
     background-image: url("../Images/button-up-hover.png");
+}
+
+@media screen and (max-width: 1620px) {
+    .footer__container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .footer__container {
+        width: 1240px;
+        /*margin: 0 100px;*/
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .footer__container {
+        flex-direction: row;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        margin: 50px 0 0 0;
+    }
+    .footer__input {
+        margin-bottom: 30px;
+    }
+    .footer__contacts {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__container {
+        width: 864px;
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__container {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        height: 327px;
+    }
+    .footer__container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .footer__list {
+        width: 320px;
+    }
+
+    .footer__contacts {
+        margin: 0;
+    }
+
+    .footer__item {
+        margin-right: 45px;
+        margin-left: 0;
+    }
 }
