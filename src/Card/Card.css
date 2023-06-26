@@ -62,3 +62,46 @@
     line-height: 23px;
     letter-spacing: 0.11em;
 }
+
+@media screen and (max-width: 1520px) {
+    .card {
+        width: 246px;
+    }
+
+    .card__section-img {
+        height: 246px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .card {
+        width: 297px;
+        margin-bottom: 104px;
+    }
+
+    .card__section-img {
+        height: 297px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .card {
+        width: 246px;
+    }
+
+    .card__section-img {
+        height: 246px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card {
+        width: 297px;
+    }
+
+    .card__section-img {
+        height: 297px;
+    }
+}
+
+

@@ -21,6 +21,14 @@ export const cardsMap = [
         collection: 'COCCINELLE SOLE SMALL',
         description: 'Ручная сумка из зернистой кожи',
         price: '€260'
+    },
+
+    {
+        id: '4',
+        url: 'https://www.coccinelle.com/dw/image/v2/AAGA_PRD/on/demandware.static/-/Sites-19/default/dw6694d139/images/grid/E1ND855B701_V48_grid_1.jpg?sw=336&sh=336&sm=fit',
+        collection: 'COCCINELLE SOLE SMALL',
+        description: 'Ручная сумка из зернистой кожи',
+        price: '€160'
     }
 
 ]
@@ -46,5 +54,12 @@ export const cardsAccessories = [
         collection: 'COCCINELLE MAGIE',
         description: 'Малый кошелек из зернистой кожи',
         price: '€120'
-    }
+    },
+    {
+        id: '14',
+        url: 'https://www.coccinelle.com/dw/image/v2/AAGA_PRD/on/demandware.static/-/Sites-19/default/dw11050c8a/images/grid/E2MW5111001_001_grid_1.jpg?sw=336&sh=336&sm=fit',
+        collection: 'KATTIE',
+        description: 'Малый кошелек из зернистой кожи',
+        price: '€265'
+    },
 ]

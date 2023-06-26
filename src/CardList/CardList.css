@@ -53,3 +53,66 @@
 .cardList__button_border:hover {
     border-bottom: 1px solid #CC1E21;
 }
+
+@media screen and (max-width: 1670px) {
+    .cardList {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+
+    .cardList {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .cardList {
+        width: 1240px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .cardList {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .cardList {
+        width: 747px;
+    }
+
+    .cardList__container {
+        flex-wrap: wrap;
+    }
+
+    .cardList__section-button {
+    margin: 16px 0 140px;
+}
+}
+
+@media screen and (max-width: 850px) {
+    .cardList {
+        width: 620px;
+    }
+
+    .cardList__container {
+        flex-wrap: wrap;
+    }
+
+    .cardList__title {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0 0 64px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cardList {
+        width: 297px;
+    }
+}
+
+
